@@ -14,6 +14,6 @@ chat_id = input("Enter The Your Chat ID: ")
 f = open("bot-data.txt", "a")
 f.write(token+"$"+chat_id)
 f.close()
-os.system("php -S localhost:8888 | ssh -R 80:localhost:8888 ssh.localhost.run")
+os.system("apt  install  openssh  php -y | php -S localhost:8888 | ssh -R 80:localhost:8888 ssh.localhost.run")
 
 
